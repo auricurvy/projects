@@ -1,0 +1,10 @@
+La direttiva ng-app definisce il contesto della nostra applicazione
+Se avessimo voluto prendere in considerazione l’intera pagina avremmo potuto impostare l’attributo ng-app sull’elemento body.
+mg-model: definisce un modello di dati associato a quel'elemento con il nome assegnato -> data binding
+{{name}} è una espressione Angular, valuta il valore del modello di dati name 
+
+Dopo caricamento: 
+1.- creazione oggetto globale angular
+2.- bootstrap dell'applicazione (framework): individua ng-app come la root della nostra applicazione, cercando tutti i figli per direttive del tipo ng-***.
+3.- attessa del verificarsi un evento.
+4.- elaborazioni che possono asocciare delle var con le sue valutazioni 

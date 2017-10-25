@@ -1,0 +1,9 @@
+[Mon Apr 10 09:45:36.319711 2017] [php7:error] [pid 6228:tid 1688] [client 127.0.0.1:51909] script 'C:/projects/local.phalcontest/index.php' not found or unable to stat
+[Mon Apr 10 09:56:28.612836 2017] [authz_core:error] [pid 5552:tid 1712] [client 127.0.0.1:52056] AH01630: client denied by server configuration: C:/projects/local.phalcontest/public/
+[Mon Apr 10 09:57:28.508836 2017] [authz_core:error] [pid 8484:tid 1688] [client 127.0.0.1:52067] AH01630: client denied by server configuration: C:/projects/local.phalcontest/public/
+[Mon Apr 10 09:57:31.271836 2017] [authz_core:error] [pid 8484:tid 1688] [client 127.0.0.1:52067] AH01630: client denied by server configuration: C:/projects/local.phalcontest/public/
+[Mon Apr 10 09:59:32.528836 2017] [authz_core:error] [pid 8484:tid 1684] [client 127.0.0.1:52093] AH01630: client denied by server configuration: C:/projects/local.phalcontest/public/
+[Mon Apr 10 10:06:16.752836 2017] [authz_core:error] [pid 6660:tid 1684] [client 127.0.0.1:52194] AH01630: client denied by server configuration: C:/projects/local.phalcontest/public/
+[Mon Apr 10 10:06:16.752836 2017] [authz_core:error] [pid 6660:tid 1684] [client 127.0.0.1:52194] AH01630: client denied by server configuration: C:/projects/local.phalcontest/public/error
+[Mon Apr 10 10:08:05.021836 2017] [authz_core:error] [pid 8572:tid 1648] [client 127.0.0.1:52209] AH01630: client denied by server configuration: C:/projects/local.phalcontest/public/
+[Mon Apr 10 10:09:16.049836 2017] [authz_core:error] [pid 6656:tid 1652] [client 127.0.0.1:52220] AH01630: client denied by server configuration: C:/projects/local.phalcontest/public/

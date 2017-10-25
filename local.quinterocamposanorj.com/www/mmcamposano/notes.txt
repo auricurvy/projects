@@ -1,0 +1,41 @@
+Page layout is secondary to structure.
+
+- Content-based text styles: cite, strong, code, kbd, samp, dfn, var...
+- Physical Style Tags: i, b, tt...
+    Use content-based text styles over physical style tags
+- Character entity: starts with an ampersand followed by its name and terminated with a semicolon or use the character's positions number in the ASCII table precede by the #.
+    &gt; = > . &lt; = < . &amp; = & .
+
+The browser fills as much of each line of the display window as possible, beginning flush against the left marging, before stopping after the rightmost word and moving on the next line. (The browser flows the text on the computer screen)
+
+All break the text flow -> restarts on a new line -> block elements
+- divisions <div>
+- paragraph <p>: adds more vertical space after the line break than either <div> or <br>
+- line-break <br>
+
+<h4> -> has regular size text
+Headings break the current text flow -> restarts on a new line
+<hr> -> breaks the flow of text and drwas a line completely across the display window on a new line
+<pre> -> preformatted text, the browser takes into account the format when you wrote the text
+
+<img> -> inline element, with align attribute: top, middle, bottom
+
+A paragraph may contain any element allowed in a text flow, including conventional words and punctuation, links (<a>), images (<img>), line breaks (<br>), font changes (<b>, <i>, <tt>, <u>, <strike>, <big>, <small>, <sup>, <sub>, and <font>), and content-based style changes (<acronym>, <cite>, <code>, <dfn>, <em>, <kbd>, <samp>, <strong>, and <var>). If any other element occurs within the paragraph, it implies that the paragraph has ended, and the browser assumes that the closing </p> tag was not specified
+
+Block elements are NOT allowed within a heading
+
+A heading may contain any element allowed in text, including conventional text, link anchors (<a>), images (<img>), line breaks (<br>), font embellishments (<b>, <i>, <tt>, <u>, <strike>, <big>, <small>, <sup>, <sub>, and <font>), and content-based style changes (<acronym>, <cite>, <code>, <dfn>, <em>, <kbd>, <samp>, <strong>, and <var>). In practice, however, font or style changes may not take effect within a heading, since the heading itself prescribes a font change within the browser.
+
+Tags: content-based styles vs. physical styles
+- content-based styles: cite, code, dfn, em, kbd, strong, var.
+https://docstore.mik.ua/orelly/web2/xhtml/ch04_04.htm#html4-CHP-4-SECT-4.14
+- physical styles: b (bold), big, small, i, sub, sup,
+
+O'Reilly Book: Chapter 5 https://docstore.mik.ua/orelly/web2/xhtml/ch05_01.htm
+
+
+History
+- alta vista data base web sites
+- ASCII text vs utf-8
+- what kind of multimedia does browsers support?
+- browsers behaviour with special characters
